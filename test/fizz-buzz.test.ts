@@ -1,9 +1,13 @@
-import FizzBuzz from "../src/fizz-buzz"
+import FizzBuzz from "../src/Transform"
 
 describe('Hello World', () => {
 
   it('Send One return one', () => {
     expect(FizzBuzz.calculate(1)).toEqual("1")
+  })
+
+  it('Send Two return Two', () => {
+    expect(FizzBuzz.calculate(2)).toEqual("2")
   })
 
   it('Send Three return Fizz', () => {
