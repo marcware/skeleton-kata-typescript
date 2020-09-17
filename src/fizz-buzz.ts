@@ -5,6 +5,8 @@ class FizzBuzz {
 
         if (number === this.FIZZ) {
             return "Fizz";
+        }else if(number === 5){
+            return "Buzz";
         }
         return number.toString();
     }
