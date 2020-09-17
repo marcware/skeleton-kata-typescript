@@ -22,6 +22,10 @@ describe('Hello World', () => {
     expect(FizzBuzz.calculate(10)).toEqual("Buzz")
   })
 
+  it('Send Twenty return Fizz', () => {
+    expect(FizzBuzz.calculate(12)).toEqual("Fizz")
+  })
+
   it('Send Fifteen return FizzBuzz', () => {
     expect(FizzBuzz.calculate(15)).toEqual("FizzBuzz")
   })
