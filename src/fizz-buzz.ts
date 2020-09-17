@@ -6,7 +6,7 @@ class FizzBuzz {
 
     static calculate(number: number): string {
 
-        if (number % this.FIZZBUZZ === this.REMAINDER) {
+        if (FizzBuzz.FizzBuzz(number)) {
             return "FizzBuzz";
         }else if(number % this.BUZZ === this.REMAINDER){
             return "Buzz";
@@ -14,6 +14,10 @@ class FizzBuzz {
             return "Fizz";
         }
         return number.toString();
+    }
+
+    private static FizzBuzz(number: number):boolean {
+        return number % this.FIZZBUZZ === this.REMAINDER;
     }
 }
 
