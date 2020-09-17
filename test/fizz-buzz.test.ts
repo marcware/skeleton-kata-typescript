@@ -18,4 +18,9 @@ describe('Hello World', () => {
     expect(FizzBuzz.calculate(6)).toEqual("Fizz")
   })
 
+
+  it('Send Ten return Buzz', () => {
+    expect(FizzBuzz.calculate(10)).toEqual("Buzz")
+  })
+
 })
