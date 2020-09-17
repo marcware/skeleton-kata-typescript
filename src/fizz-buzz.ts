@@ -7,7 +7,7 @@ class FizzBuzz {
 
         if (number % this.FIZZ === this.REMAINDER) {
             return "Fizz";
-        }else if(number === this.BUZZ){
+        }else if(number % this.BUZZ === this.REMAINDER){
             return "Buzz";
         }
         return number.toString();
