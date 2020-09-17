@@ -4,7 +4,7 @@ class FizzBuzz {
 
     static calculate(number: number): string {
 
-        if (number === this.FIZZ) {
+        if (number % this.FIZZ === 0) {
             return "Fizz";
         }else if(number === this.BUZZ){
             return "Buzz";
