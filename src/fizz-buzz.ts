@@ -1,6 +1,6 @@
 class FizzBuzz {
-    static calculate(): string {
-        return 'Hello, World!'
+    static calculate( number :number): string {
+        return number.toString();
     }
 }
 
