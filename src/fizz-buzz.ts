@@ -8,12 +8,20 @@ class FizzBuzz {
 
         if (FizzBuzz.FizzBuzz(number)) {
             return "FizzBuzz";
-        }else if(number % this.BUZZ === this.REMAINDER){
+        }else if(FizzBuzz.Buzz(number)){
             return "Buzz";
-        }else if(number % this.FIZZ === this.REMAINDER){
+        }else if(FizzBuzz.Fizz(number)){
             return "Fizz";
         }
         return number.toString();
+    }
+
+    private static Fizz(number: number):boolean {
+        return number % this.FIZZ === this.REMAINDER;
+    }
+
+    private static Buzz(number: number):boolean {
+        return number % this.BUZZ === this.REMAINDER;
     }
 
     private static FizzBuzz(number: number):boolean {
