@@ -7,6 +7,8 @@ Proyecto para empezar un repo de zero
 sudo npm install -g yarn
 ```
 
+Json --> comando que tiene que estar instalado global. 
+
 ```bash
 $ yarn install
 ```
