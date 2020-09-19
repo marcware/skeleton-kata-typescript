@@ -23,7 +23,8 @@
     "typescript": "^4.1.0-dev.20200914"
   },
   "scripts": {
-    "test": "yarn lint:types && jest --no-cache",
+    "test:yarn": "yarn lint:types && jest --no-cache",
+    "test:watch":"yarn lint && jest --watchAll --no-cache",
     "lint": "yarn lint:types && yarn lint:ci",
     "lint:types": "yarn tsc --noEmit -p .",
     "lint:ci": "eslint . --ext .tsx,.ts"
