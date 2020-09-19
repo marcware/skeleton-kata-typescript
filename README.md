@@ -15,6 +15,10 @@ $ yarn install
 $ yarn test
 ```
 
+## Metodología
+Para realizar los tes utilizaremos TDD. 
+Por cada iteración crearemos un commit 
+
 ## Lint
 
 ## Katateca
