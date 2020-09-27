@@ -32,8 +32,8 @@ Ejemplo:
 ## Katateca
 
 ### 
-1. [FizzBuzz](katateca/katas/fizz_buzz.md)
+1. [FizzBuzz](katateca/katas/fizz_buzz.md) Test Unitario
 
 
 ### Patrones de diseño
-1. [Fizz Buzz con Chain of Responsability](katateca/patrones_de_diseño/chain_of_responsability_fizz_buzz.md)
+1. [Fizz Buzz con Chain of Responsability](katateca/patrones_de_diseño/chain_of_responsability_fizz_buzz.md) Test Unitario
