@@ -33,8 +33,9 @@ Ejemplo:
 
 ## Katateca
 
-### 
-1. [FizzBuzz](katateca/katas/fizz_buzz.md) Test Unitario
+### Starter
+1. [FizzBuzz](katateca/starter/fizz_buzz.md) Test Unitario
+2. [String Calculator](katateca/starter/string_calculator.md) Test Unitario
 
 
 ### Patrones de diseño
