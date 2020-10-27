@@ -17,6 +17,12 @@ De todas las cadenas de caracteres que se podrían generar sólo un subconjunto 
 Si nos fijamos en las condiciones recogidas en la lista anterior, vemos que cada una de ellas reduce el número de cadenas de caracteres candidatas a ser un DNI.
 
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 | Resto | Letra | 
 | --- | --- | --- | 
 | 0 |	T | 
