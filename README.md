@@ -36,6 +36,7 @@ Ejemplo:
 ### Starter
 1. [FizzBuzz](katateca/starter/fizz_buzz.md) Test Unitario
 2. [String Calculator](katateca/starter/string_calculator.md) Test Unitario
+3. [DNI](katateca/starter/dni.md) Test Unitario - Excepciones - ValueObject
 
 
 ### Patrones de diseño
