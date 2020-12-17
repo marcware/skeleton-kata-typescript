@@ -38,6 +38,7 @@ Ejemplo:
 2. [String Calculator](katateca/starter/string_calculator.md) Test Unitario
 3. [DNI](katateca/starter/dni.md) Test Unitario - Excepciones - ValueObject
 4. [Arabic_to_roman](katateca/starter/arabic_to_roman.md)
+6. [Transistores_dos_colores]()
 
 
 ### Patrones de diseño
